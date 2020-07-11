@@ -64,9 +64,13 @@ def main():
     pose = Pose(Point(0, 2, 0.1), Quaternion(0, 1, 0, -1))
     output_container = SDF_Object('output_container', 'container', pose)
 
+    #
     red_box = URDF_Object('red_box', 'red_box', Point(0, 0, 0.2))
     green_box = URDF_Object('green_box', 'green_box', Point(0, -0.2, 0.2))
     blue_box = URDF_Object('blue_box', 'blue_box', Point(0, 0.2, 0.2))
+    red_cylinder = URDF_Object('red_cylinder', 'red_cylinder', Point(0, 0, 0.6))
+    green_cylinder = URDF_Object('green_cylinder', 'green_cylinder', Point(0, -0.2, 0.6))
+    blue_cylinder = URDF_Object('blue_cylinder', 'blue_cylinder', Point(0, 0.2, 0.6))
 
 
 if __name__ == '__main__':
