@@ -1,0 +1,8 @@
+prefix=/home/javad/Desktop/GrpAssignment1/install
+
+Name: ur5_t2_4230
+Description: Description of ur5_t2_4230
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
