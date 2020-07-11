@@ -1,1 +1,9 @@
-This is the repo for the assignment
+This is the repo for the assignment:
+
+Steps:
+1. Clone the repository from github.com/hamishchristianclark/GrpAssignment1
+2. Navigate to this directory
+3. In a terminal, catkin_make
+4. source devel/setup.bash
+5. roslaunch ur5_t2_4230 ur5_world.launch
+
