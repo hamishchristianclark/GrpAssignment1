@@ -1,11 +1,5 @@
 #!/usr/bin/env python
 
-# Author: Frank Li - z5115761
-# Creation Date: 04/07/2020
-# Last Modified: 05/07/2020
-# Description:
-#   Spawns objects
-
 import tf
 import rospy
 import typing
