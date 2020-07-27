@@ -9,7 +9,7 @@ from trajectory_msgs.msg import JointTrajectory
 from trajectory_msgs.msg import JointTrajectoryPoint
 import rospy
 
-waypoints = [[0.0, -1.44, 1.4, 0.6, 0, -0.33], [0,0,0,0,0,0]]
+waypoints = [[1.4,0, -1.44, 1.4, 0.6, 0, 1.4], [0,0,0,0,0,0]]
 
 def main():
 
