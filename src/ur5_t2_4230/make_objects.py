@@ -90,7 +90,7 @@ def main():
 		y_coords.append(y)
 
 		#spawn object at random location
-		URDF_Object(str(object_counter), selected_object, Point(x, y, 1.5))
+		URDF_Object(str(object_counter), selected_object, Point(x, y, 0.3))
 
 		object_counter = object_counter - 1
 

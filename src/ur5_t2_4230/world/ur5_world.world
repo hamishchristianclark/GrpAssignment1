@@ -17,10 +17,6 @@
 			<uri>model://kinect_ros</uri>
 			<pose> 1.0 1.0 3.0 0.0 1.58 0.0 </pose> <?x y z roll pitch yaw?>
             <static> 1 </static>
-		</include>
-
-             
-
-		
+		</include>         
 	</world>
 </sdf>
